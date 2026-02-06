@@ -41,3 +41,37 @@ class Student(Person):
 student = Student("Hanna", 29, "s12345")
 student.greet()
 print("Student ID:", student.student_id)
+
+# Exercise 6: JSON Settings Handler
+
+import json
+
+try:
+    with open("settings.json", "r") as file:
+        settings = json.load(file)
+
+    print("Current settings:", settings)
+
+    key = input("Which setting do you want to change? ")
+    if key in settings:
+        new_value = input("Enter new value: ")
+
+        # Convert to int if original value is int
+        if isinstance(settings[key], int):
+            new_value = int(new_value)
+
+        settings[key] = new_value
+
+        with open("settings.json", "w") as file:
+            json.dump(settings, file, indent=2)
+
+        print("Settings updated:", settings)
+    else:
+        print("Setting not found.")
+
+except FileNotFoundError:
+    print("settings.json file not found.")
+except ValueError:
+    print("Invalid value type.")
+except Exception as e:
+    print("An error occurred:", e)
