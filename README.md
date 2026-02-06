@@ -1,0 +1,3 @@
+## Refleksjon
+
+Dette prosjektet viser hvordan god struktur bidrar til felles forståelse og delt kodeeierskap i et team. Tydelig dokumentasjon, som README og kommentarer i koden gjør det enklere for andre å sette seg inn i prosjektets struktur og hensikt. Versjonskontroll med Git gjør endringer sporbare over tid og reduserer risikoen for feil når flere jobber på samme kodebase. En ryddig filstruktur og modulær kode øker lesbarheten og gjør vedlikehold enklere. Samarbeidsformer som kodegjennomgang, parprogrammering og tilbakemeldinger fra medstudenter bidrar til kunnskapsdeling og mindre personavhengighet i prosjektet.
