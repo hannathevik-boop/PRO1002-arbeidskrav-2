@@ -8,8 +8,8 @@ This project shows how good structure contributes to common understanding and sh
 
 ______chosen excercises:
 
-# Exercise 2: Task List Manager (with separate module)
+Exercise 2: Task List Manager (with separate module)
 
-# Exercise 3: Simple Class and Inheritance
-# Exercise 6: JSON Settings Handler
+Exercise 3: Simple Class and Inheritance
+Exercise 6: JSON Settings Handler
 
